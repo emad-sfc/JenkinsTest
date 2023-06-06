@@ -11,4 +11,9 @@ public class TestController {
         return "Hello World. This is Jenkins build.";
     }
 
+    @GetMapping("/home2")
+    public String home2(){
+        return "Hi, this is my second commit";
+    }
+
 }
